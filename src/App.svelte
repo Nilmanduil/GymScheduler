@@ -10,4 +10,4 @@
 </style>
 
 <h1>{name}</h1>
-<TrainingDay></TrainingDay>
+<TrainingDay />
