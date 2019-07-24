@@ -13,7 +13,17 @@
     let nbDaysTrainingPerWeek;
 </script>
 
-<style></style>
+<style>
+    .all-days {
+        border: solid 2px purple;
+        margin: 5px;
+    }
+
+    .training-day-details {
+        border: solid 2px green;
+        margin: 5px;
+    }
+</style>
 
 <div>
     <form>
@@ -26,9 +36,9 @@
     {JSON.stringify(nbDaysTrainingPerWeek)}
 </div>
 {#if nbDaysTrainingPerWeek}
-    <div>
+    <div class="all-days">
         {#each nbDaysTrainingPerWeek.value as dayNumber, i}
-            <div>
+            <div class="training-day-details">
                 <TrainingDayDetails title={`Day ${++i}`}></TrainingDayDetails>
             </div>
         {/each}
