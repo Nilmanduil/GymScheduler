@@ -1,5 +1,5 @@
 <script>
-	let name = 'GymScheduler';
+	export let name;
 </script>
 
 <style>
