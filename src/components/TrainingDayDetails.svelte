@@ -31,5 +31,12 @@
             <input type="number" id="reps" bind:value={exercise.reps} />
         </div>
         <button type="submit">Add exercise</button>
+        <div>
+            <ul>
+                {#each exercises as ex}
+                    <li>{ex.activity} : {ex.sets} sets of {ex.reps}</li>
+                {/each}
+            </ul>
+        </div>
     </form>
 </div>
