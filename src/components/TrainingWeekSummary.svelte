@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from 'svelte';
+
     export let summary;
     export let days;
     let isDataFormatted = false;
@@ -17,7 +19,10 @@
         console.log(formattedData);
     }
 
-    prepareSummary();
+    onMount(() => {
+        console.log("onMount");
+        prepareSummary();
+    });
 </script>
 
 <style></style>
