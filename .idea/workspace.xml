@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61abde9-a35b-47f0-9d3a-963ea2d20590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/TrainingDay.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TrainingDay.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TrainingWeekSummary.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TrainingWeekSummary.svelte" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/TrainingDay.svelte">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/TrainingWeekSummary.svelte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="327">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -82,8 +81,8 @@
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/App.svelte" />
         <option value="$PROJECT_DIR$/src/components/TrainingDayDetails.svelte" />
-        <option value="$PROJECT_DIR$/src/components/TrainingWeekSummary.svelte" />
         <option value="$PROJECT_DIR$/src/components/TrainingDay.svelte" />
+        <option value="$PROJECT_DIR$/src/components/TrainingWeekSummary.svelte" />
       </list>
     </option>
   </component>
@@ -160,12 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563981074796</updated>
       <workItem from="1563981075881" duration="5675000" />
-      <workItem from="1564064558695" duration="2786000" />
+      <workItem from="1564064558695" duration="3388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8461000" />
+    <option name="totallyTimeSpent" value="9063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-8" width="1616" height="916" extended-state="6" />
@@ -223,17 +222,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TrainingWeekSummary.svelte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TrainingDay.svelte">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TrainingWeekSummary.svelte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
         </state>
       </provider>
     </entry>
